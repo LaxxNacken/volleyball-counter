@@ -4,14 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Volley Ball Counter</title>
+        <title>Volleyball Counter</title>
     </head>
     <body>
-        <div>
-            <button id="button-team-a"></button>
-        </div>
-        <div>
-            <button id="button-team-b"></button>
+        <h1>Volleyball Score Counter</h1>
+        <h2 id="winner-message"></h2>
+        <button id="standard-set">25er Satz</button>
+        <button id="small-set">15er Satz</button>
+        <div class="score-flexbox-container">
+            <div id="div-team-a" class="hide-element button-flexbox-container">
+                <button class="button-team-a" id="button-team-a"></button>
+                <input type="text">
+            </div>
+            <div id="div-team-b" class="hide-element button-flexbox-container">
+                <button class="button-team-b" id="button-team-b"></button>
+                <input type="text">
+            </div>
         </div>
         <script src="script.js"></script>
     </body>
