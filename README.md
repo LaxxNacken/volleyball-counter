@@ -2,6 +2,7 @@
 A volleyball counter I made for my volleyball club
 
 # To-Do's
+    -Reset button for missinputs
     -Proper style, asking Simon about how to style it 
     -Additional, asking Simon about which features are needed
 
@@ -17,3 +18,9 @@ A volleyball counter I made for my volleyball club
     -finished win logic
     -added different set modes
     -first real styling added
+
+# 2023-12-18
+    -added bootstrap to make it look more pleasant
+    -made it overall more appealing
+    -added team naming with working logic on win
+

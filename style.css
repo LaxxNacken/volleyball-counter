@@ -6,6 +6,42 @@ body {
 h1 {
     color: white;
 }
+
+.team-a-win {
+    background-color: rgba(19, 223, 1, 0.486);
+}
+
+.team-b-win {
+    background-color:  rgb(207, 2, 2);
+}
+
+.form-control {
+    text-align: center;
+}
+
+.headline-container {
+    background-color: #4285f4; 
+    padding: 10px;
+    border-radius: 10px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.headline-container h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+
+#winner-message {
+    border-radius: 10px; 
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #ffffff;
+}
+
 .score-flexbox-container {
     padding-top: 50px;
     display: flex;
@@ -24,18 +60,19 @@ h1 {
     width: 100px;
     height: 40px;
     margin-bottom: 10px;
-    background-color: rgba(0, 0, 255, 0.486);
+    background-color: rgba(19, 223, 1, 0.486);
     color: white;
 }
 
 .button-team-b {
     width: 100px;
     height: 40px;
+    margin-bottom: 10px;
     background-color: rgb(207, 2, 2);
     color: white;
-    margin-bottom: 10px;
 }
 
 .hide-element {
     display: none !important;
 }
+

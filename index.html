@@ -1,26 +1,34 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Volleyball Counter</title>
-    </head>
-    <body>
-        <h1>Volleyball Score Counter</h1>
-        <h2 id="winner-message"></h2>
-        <button id="standard-set">25er Satz</button>
-        <button id="small-set">15er Satz</button>
-        <div class="score-flexbox-container">
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Volleyball Counter</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="headline-container">
+            <h1>🏐 Volleyball Score Counter 🏐</h1>
+        </div>
+        <h2 id="winner-message" class="text-center hide-element"></h2>
+        <div class="d-flex justify-content-center mt-3">
+            <button class="btn btn-secondary me-2" id="standard-set">25er Satz</button>
+            <button class="btn btn-secondary" id="small-set">15er Satz</button>
+        </div>
+        <div class="score-flexbox-container mt-4">
             <div id="div-team-a" class="hide-element button-flexbox-container">
-                <button class="button-team-a" id="button-team-a"></button>
-                <input type="text">
+                <button class="btn btn-success button-team-a" id="button-team-a"></button>
+                <input id="input-team-a" type="text" class="form-control" placeholder="Team A">
             </div>
             <div id="div-team-b" class="hide-element button-flexbox-container">
-                <button class="button-team-b" id="button-team-b"></button>
-                <input type="text">
+                <button class="btn btn-danger button-team-b" id="button-team-b"></button>
+                <input id="input-team-b" type="text" class="form-control" placeholder="Team B">
             </div>
         </div>
-        <script src="script.js"></script>
-    </body>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
